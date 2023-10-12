@@ -655,10 +655,7 @@ async def send_all(bot, userid, files, ident):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                    ],[
-                        InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/LiZarD_amc")
+                        InlineKeyboardButton("🎬 𝙈𝙊𝙑𝙄𝙀 𝙍𝙀𝙌𝙐𝙀𝙎𝙏 𝙂𝙍𝙊𝙐𝙋 🍿", url="https://t.me/planet_movies_grp")
                         ]
                     ]
                 )

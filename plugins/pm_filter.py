@@ -156,25 +156,25 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'📮ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'📟ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'🔰ꜱᴇʀɪᴇꜱ', 'sinfo')
                 ]
             )
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'📟ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'🔰ꜱᴇʀɪᴇꜱ', 'sinfo')
                 ]
             )            
     except KeyError:
         await save_group_settings(query.message.chat.id, 'auto_delete', True)
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                InlineKeyboardButton(f'📮ɪɴꜰᴏ', 'reqinfo'),
+                InlineKeyboardButton(f'📟ᴍᴏᴠɪᴇ', 'minfo'),
+                InlineKeyboardButton(f'🔰ꜱᴇʀɪᴇꜱ', 'sinfo')
             ]
         )
     try:
@@ -243,11 +243,11 @@ async def next_page(bot, query):
                 ],
             )
     btn.insert(0, [
-        InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"send_fall#files#{offset}#{req}"),
-        InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
+        InlineKeyboardButton("🪄 Sᴇɴᴅ Aʟʟ Tᴏ PM 🪄", callback_data=f"send_fall#files#{offset}#{req}"),
+        InlineKeyboardButton("📜 Lᴀɴɢᴜᴀɢᴇs 📜", callback_data=f"select_lang#{req}")
     ])
     btn.insert(0, [
-        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("♻ ᴊᴏɪɴ ᴍʏ ʙᴀᴄᴋ - ᴜᴘ ᴄʜᴀɴɴᴇʟ ♻", url=f"https://t.me/planet_movies_links")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -330,17 +330,17 @@ async def language_check(bot, query):
             if settings['auto_delete']:
                 btn.insert(0, 
                     [
-                        InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                        InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                        InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                        InlineKeyboardButton(f'📮ɪɴꜰᴏ', 'reqinfo'),
+                        InlineKeyboardButton(f'📟ᴍᴏᴠɪᴇ', 'minfo'),
+                        InlineKeyboardButton(f'🔰ꜱᴇʀɪᴇꜱ', 'sinfo')
                     ]
                 )
 
             else:
                 btn.insert(0, 
                     [
-                        InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                        InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                        InlineKeyboardButton(f'📟ᴍᴏᴠɪᴇ', 'minfo'),
+                        InlineKeyboardButton(f'🔰ꜱᴇʀɪᴇꜱ', 'sinfo')
                     ]
                 )
                     
@@ -348,19 +348,19 @@ async def language_check(bot, query):
             await save_group_settings(query.message.chat.id, 'auto_delete', True)
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'📮ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'📟ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'🔰ꜱᴇʀɪᴇꜱ', 'sinfo')
                 ]
             )
         
         btn.insert(0, [
-            InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"send_fall#{pre}#{0}#{userid}"),
-            InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{userid}")
+            InlineKeyboardButton("🪄 Sᴇɴᴅ Aʟʟ Tᴏ PM 🪄", callback_data=f"send_fall#{pre}#{0}#{userid}"),
+            InlineKeyboardButton("📜 Lᴀɴɢᴜᴀɢᴇs 📜", callback_data=f"select_lang#{userid}")
         ])
 
         btn.insert(0, [
-            InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+            InlineKeyboardButton("♻ ᴊᴏɪɴ ᴍʏ ʙᴀᴄᴋ - ᴜᴘ ᴄʜᴀɴɴᴇʟ ♻", url=f"https://t.me/planet_movies_links")
         ])
 
         if offset != "":
@@ -728,10 +728,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             reply_markup=InlineKeyboardMarkup(
                                 [
                                 [
-                                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                            ],[
-                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/LiZarD_amc")
+                                InlineKeyboardButton("🎬 𝙈𝙊𝙑𝙄𝙀 𝙍𝙀𝙌𝙐𝙀𝙎𝙏 𝙂𝙍𝙊𝙐𝙋 🍿", url="https://t.me/planet_movies_grp")
                                 ]
                                 ]
                             )
@@ -801,10 +798,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                  InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-               ],[
-                  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/LiZarD_amc")
+                  InlineKeyboardButton("🎬 𝙈𝙊𝙑𝙄𝙀 𝙍𝙀𝙌𝙐𝙀𝙎𝙏 𝙂𝙍𝙊𝙐𝙋 🍿", url="https://t.me/planet_movies_grp")
                  ]
                 ]
             )
@@ -1602,35 +1596,35 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'📮ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'📟ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'🔰ꜱᴇʀɪᴇꜱ', 'sinfo')
                 ]
             )
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'📟ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'🔰ꜱᴇʀɪᴇꜱ', 'sinfo')
                 ]
             )       
     except KeyError:
         await save_group_settings(message.chat.id, 'auto_delete', True)
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                InlineKeyboardButton(f'📮ɪɴꜰᴏ', 'reqinfo'),
+                InlineKeyboardButton(f'📟ᴍᴏᴠɪᴇ', 'minfo'),
+                InlineKeyboardButton(f'🔰ꜱᴇʀɪᴇꜱ', 'sinfo')
             ]
         )
 
     btn.insert(0, [
-        InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"send_fall#{pre}#{0}#{message.from_user.id}"),
-        InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{message.from_user.id}")
+        InlineKeyboardButton("🪄 Sᴇɴᴅ Aʟʟ Tᴏ PM 🪄", callback_data=f"send_fall#{pre}#{0}#{message.from_user.id}"),
+        InlineKeyboardButton("📜 Lᴀɴɢᴜᴀɢᴇs 📜", callback_data=f"select_lang#{message.from_user.id}")
     ])
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("♻ ᴊᴏɪɴ ᴍʏ ʙᴀᴄᴋ - ᴜᴘ ᴄʜᴀɴɴᴇʟ ♻", url=f"https://t.me/planet_movies_links")
     ])
 
     if offset != "":

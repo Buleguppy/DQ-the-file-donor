@@ -11,6 +11,8 @@ datetime
 pytz
 aiohttp
 yt_dlp
+wget
+aiofiles
 youtube_search
 youtube-search-python==1.4.6
 youtube-dl

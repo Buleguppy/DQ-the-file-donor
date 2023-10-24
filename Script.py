@@ -11,7 +11,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
     ABOUT_TXT = """<b>╔══════════════════❍
 ║╭━━━━━━━━━━━━━━━➣ 
 ║➠ Mʏ Nᴀᴍᴇ: {}
-║➠ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/LiZarD_amc'>𝗟𝗶𝗭𝗮𝗿𝗗</a>
+║➠ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/LiZarD_amc'>アニル___🗯️</a>
 ║➠ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
 ║➠ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
 ║➠ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
@@ -24,7 +24,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
 - ꜱᴏᴜʀᴄᴇ - <a href="https://t.me/planet_movies_dq">𝑫.𝑸 𝗨𝗣𝗗𝗔𝗧𝗘𝗦</a>
 Dᴇᴠᴇʟᴏᴘᴇʀ:
-- <a href="https://t.me/LiZarD_amc">𝗟𝗶𝗭𝗮𝗿𝗗</a></b>"""
+- <a href="https://t.me/LiZarD_amc">アニル___🗯️</a></b>"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
@@ -156,7 +156,7 @@ Nᴀᴍᴇ - {}"""
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : 𝗟𝗶𝗭𝗮𝗿𝗗
+• ꜰᴜʟʟ ɴᴀᴍᴇ : アニル___🗯️
 • ᴜꜱᴇʀɴᴀᴍᴇ : @LiZarD_amc
 • ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/LiZarD_amc'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
